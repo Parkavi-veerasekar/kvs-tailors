@@ -1,31 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kvs Tailors</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <center>
-        <h1>Kvs Tailors</h1>
-    </center>
-    <div class="one">
-       <h2>Welcome to KVS Tailor</h2>
-           <p>
-              KVS Tailor is a trusted tailoring service offering high-quality stitching with perfect fit
-             and fine finishing. We focus on customer satisfaction by delivering comfortable, elegant,
-              and well-stitched garments.
-            </p>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="one">Kvs Tailors</h1>
+    <nav class="navbar">
+      <a href="#home">HOME</a>
+      <a href="#service">SERVICES</a>
+      <a href="#appointment">APPOINTMENT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
 
-            <p>
-              Under the guidance of our owner, K. VEERASEKAR, we ensure precision, quality,
-              and timely delivery for every order.
-            </p>
+    <div class="home" id="home">
+      <h2>Welcome to KVS Tailors</h2>
+      <p>
+        KVS Tailor is a trusted tailoring service offering high-quality
+        stitching with perfect fit and fine finishing. We focus on customer
+        satisfaction by delivering comfortable, elegant, and well-stitched
+        garments.
+      </p>
 
+      <p>
+        Under the guidance of our owner, K. VEERASEKAR, we ensure precision,
+        quality, and timely delivery for every order.
+      </p>
     </div>
 
-</body>
+    <div class="service" id="service">
+      <h2>Services</h2>
+      <img src="stitch.jpg" alt="Stitching Image" />
+      <img src="things.jpg" alt="things" />
+      <ul>
+        <li>Shirt, Pant, and Trouser Stitching</li>
+        <li>Blouse and Churidar Stitching</li>
+        <li>Uniform Stitching</li>
+        <li>All Types of Alterations</li>
+        <li>Custom and Perfect-Fit Tailoring</li>
+      </ul>
+    </div>
+
+    <div class="appointment" id="appointment">
+      <h2>Appoinments</h2>
+      <form>
+        <table>
+          <tr>
+            <td>NAME:</td>
+            <td><input type="text" placeholder="enter your name" /></td>
+          </tr>
+          <tr>
+            <td>DATE GIVEN:</td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td>DUE DATE:</td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td>SERVICE:</td>
+            <td>
+              <select>
+                <option>--select--</option>
+                <option>Mens garments</option>
+                <option>Womens garments</option>
+                <option>Alterations</option>
+                <option>uniforms</option>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
 </html>
-
-

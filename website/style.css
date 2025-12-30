@@ -1,17 +1,13 @@
 body{
-    background:linear-gradient(rgb(205, 88, 88),rgb(249, 215, 215));
-}
-
-h1{
-    font-family:serif;
-    font-weight: 400;
+    background:rgb(139, 149, 201);
 }
 
 .one{
-    background-image: url(stitch.jpg);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size:cover;
-    height:400px;
-    width:100%;
-    }
+    font-family:serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+a{
+    text-decoration:none;
+}
